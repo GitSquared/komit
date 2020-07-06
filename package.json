@@ -1,6 +1,6 @@
 {
   "name": "komit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An interactive prompt for conventional commit messages that doesn't get in your way. Designed to run as a git hook.",
   "main": "index.js",
   "bin": "./index.js",
