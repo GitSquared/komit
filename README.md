@@ -1,4 +1,5 @@
 # 👮 Komit
+![npm badge](https://badgen.net/npm/v/komit)
 
 Komit is a small prompt designed to be run as a git hook to help follow the [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) message standard.
 
