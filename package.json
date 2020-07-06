@@ -1,8 +1,9 @@
 {
   "name": "komit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An interactive prompt for conventional commit messages that doesn't get in your way. Designed to run as a git hook.",
   "main": "index.js",
+  "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
