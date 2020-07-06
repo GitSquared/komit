@@ -1,0 +1,42 @@
+{
+  "name": "komit",
+  "version": "1.0.0",
+  "description": "An interactive prompt for conventional commit messages that doesn't get in your way. Designed to run as a git hook.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "node index.js $HUSKY_GIT_PARAMS",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitSquared/komit.git"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "commitlint",
+    "terminal",
+    "conventional-commit"
+  ],
+  "author": "Gabriel SAILLARD <gabriel@saillard.dev> (https://gaby.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GitSquared/komit/issues"
+  },
+  "homepage": "https://github.com/GitSquared/komit#readme",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "enquirer": "^2.3.6",
+    "force-stdin-tty": "0.0.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/config-conventional": "^9.0.1",
+    "husky": "^4.2.5"
+  }
+}
