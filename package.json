@@ -1,6 +1,6 @@
 {
   "name": "komit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An interactive prompt for conventional commit messages that doesn't get in your way. Designed to run as a git hook.",
   "main": "index.js",
   "bin": "./index.js",
@@ -36,8 +36,8 @@
     "force-stdin-tty": "0.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^9.0.1",
-    "@commitlint/config-conventional": "^9.0.1",
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
     "husky": "^4.2.5"
   }
 }
