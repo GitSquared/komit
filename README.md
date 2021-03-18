@@ -33,7 +33,7 @@ Add to `.git/hooks/prepare-commit-msg`:
 ```sh
 #!/bin/sh
 
-npx komit
+npx komit .git/COMMIT_EDITMSG
 ```
 
 ## Credits
