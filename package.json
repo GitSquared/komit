@@ -36,8 +36,8 @@
     "force-stdin-tty": "0.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^9.1.1",
+    "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^9.1.1",
-    "husky": "^4.2.5"
+    "husky": "^8.0.3"
   }
 }
